@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "dataset_version": "1.2.0",
-  "reviewed_through": "2026-10-13",
-  "metadata_updated": "2026-11-09",
-  "doi": "10.5281/zenodo.24089413",
-  "doi_url": "https://doi.org/10.5281/zenodo.24089413",
-  "zenodo_record_url": "https://zenodo.org/records/24089413",
+  "dataset_version": "1.3.0",
+  "reviewed_through": "2026-11-10",
+  "metadata_updated": "2026-11-10",
+  "doi": "10.5281/zenodo.24118395",
+  "doi_url": "https://doi.org/10.5281/zenodo.24118395",
+  "zenodo_record_url": "https://zenodo.org/records/24118395",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "versions": [
@@ -23,6 +23,11 @@
       "version": "1.2.0",
       "published": "2026-10-13",
       "change": "Replaced the superseded 2025 NO FAKES proposal with S.4591, recorded its committee advance and the September 30 floor objection, and rechecked the C2PA 2.4 and UK digital-replica sources."
+    },
+    {
+      "version": "1.3.0",
+      "published": "2026-11-10",
+      "change": "Added enacted New York rules for digital-replica contracts and synthetic performers in advertising, plus the 2026 EU AI Act amendment on non-consensual intimate material and consent safeguards."
     }
   ],
   "corrections_url": "mailto:founders@socialgravity.ai?subject=AI%20identity%20registry%20correction"

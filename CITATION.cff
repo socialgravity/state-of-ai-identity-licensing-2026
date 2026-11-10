@@ -4,11 +4,15 @@ title: "State of AI Identity Licensing 2026 primary-source dataset"
 type: dataset
 authors:
   - name: "SocialGravity"
-doi: "10.5281/zenodo.24089413"
-version: "1.2.0"
-date-released: "2026-10-13"
+  - family-names: "Balbin"
+    given-names: "Alvaro"
+    affiliation: "SocialGravity"
+    website: "https://www.alvarobalbin.com/founder/"
+doi: "10.5281/zenodo.24118395"
+version: "1.3.0"
+date-released: "2026-11-10"
 url: "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026"
-repository-artifact: "https://zenodo.org/records/24089413"
+repository-artifact: "https://zenodo.org/records/24118395"
 repository-code: "https://github.com/socialgravity"
 license: CC-BY-4.0
 keywords:
