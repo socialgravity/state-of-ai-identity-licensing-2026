@@ -52,16 +52,16 @@
   "name": "State of AI Identity Licensing 2026 primary-source dataset",
   "description": "A bounded review of primary sources that directly address digital replicas, AI likeness permission, advertising disclosure or synthetic-media provenance. It is not a census of every law or contract.",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "citeAs": "SocialGravity (2026). State of AI Identity Licensing 2026 primary-source dataset (Version 1.2.0). https://doi.org/10.5281/zenodo.24089413",
+  "citeAs": "SocialGravity (2026). State of AI Identity Licensing 2026 primary-source dataset (Version 1.3.0). https://doi.org/10.5281/zenodo.24118395",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026",
   "identifier": [
-    "https://doi.org/10.5281/zenodo.24089413",
+    "https://doi.org/10.5281/zenodo.24118395",
     "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026"
   ],
   "sameAs": [
-    "https://doi.org/10.5281/zenodo.24089413",
-    "https://zenodo.org/records/24089413",
+    "https://doi.org/10.5281/zenodo.24118395",
+    "https://zenodo.org/records/24118395",
     "https://huggingface.co/datasets/TheAlvaroBalbin/state-of-ai-identity-licensing-2026"
   ],
   "creator": {
@@ -69,14 +69,22 @@
     "name": "SocialGravity",
     "url": "https://socialgravity.ai/"
   },
+  "contributor": [
+    {
+      "@type": "sc:Person",
+      "name": "Alvaro Balbin",
+      "jobTitle": "Dataset maintainer and source reviewer",
+      "url": "https://www.alvarobalbin.com/founder/"
+    }
+  ],
   "publisher": {
     "@type": "sc:Organization",
     "name": "SocialGravity",
     "url": "https://socialgravity.ai/"
   },
   "datePublished": "2026-09-04",
-  "dateModified": "2026-11-09",
-  "version": "1.2.0",
+  "dateModified": "2026-11-10",
+  "version": "1.3.0",
   "inLanguage": "en",
   "keywords": [
     "AI identity licensing",
@@ -93,9 +101,9 @@
       "name": "data.csv",
       "description": "One row per reviewed primary source, including the eight coded control columns.",
       "contentUrl": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.csv",
-      "contentSize": "7712 B",
+      "contentSize": "9673 B",
       "encodingFormat": "text/csv",
-      "sha256": "92193caaf655f257932e744c3112af2689b874fc453b02efd628e9bab65b9c99"
+      "sha256": "963c9e41b96bc4b5f8119ceb503d79791379b09622b65919efe892c7f22d807e"
     },
     {
       "@type": "cr:FileObject",
@@ -103,9 +111,9 @@
       "name": "data.json",
       "description": "The complete versioned dataset, coding definitions, source records and release metadata.",
       "contentUrl": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.json",
-      "contentSize": "14915 B",
+      "contentSize": "18007 B",
       "encodingFormat": "application/json",
-      "sha256": "7995ca3ebbc5d7df8c11bdff31e7b1ecc04d6b939705102b31e6fe4b21760be1"
+      "sha256": "1f24eb01d4b88739f0dfefb705593a72b1a6b5aea1d3bb420d587445fe508ec4"
     }
   ],
   "recordSet": [
@@ -113,7 +121,7 @@
       "@type": "cr:RecordSet",
       "@id": "sources",
       "name": "Reviewed primary sources",
-      "description": "Fourteen source records coded against eight published operating-control definitions.",
+      "description": "17 source records coded against eight published operating-control definitions.",
       "key": {
         "@id": "sources/id"
       },

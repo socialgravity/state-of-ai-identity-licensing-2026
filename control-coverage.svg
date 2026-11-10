@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="title desc">
   <title id="title">Controls addressed across the reviewed primary sources</title>
-  <desc id="desc">A horizontal bar chart counting how many of fourteen sources address each of eight controls. The counts describe topic coverage, not legal requirements or performance scores.</desc>
+  <desc id="desc">A horizontal bar chart counting how many of 17 sources address each of eight controls. The counts describe topic coverage, not legal requirements or performance scores.</desc>
   <style>
     .title { font: 600 34px ui-serif, Georgia, serif; fill: #20231c; }
     .subtitle { font: 20px ui-sans-serif, system-ui, sans-serif; fill: #5f6258; }
@@ -9,39 +9,39 @@
   </style>
   <rect width="1200" height="730" fill="#f7f6ef" />
   <text x="40" y="52" class="title">Primary-source control coverage</text>
-  <text x="40" y="86" class="subtitle">SocialGravity review, 14 sources, cutoff October 13, 2026</text>
+  <text x="40" y="86" class="subtitle">SocialGravity review, 17 sources, cutoff November 10, 2026</text>
   
       <text x="40" y="156" class="label">Permission</text>
       <rect x="330" y="132" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="132" width="450" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="156" class="count">9 of 14</text>
+      <rect x="330" y="132" width="412" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="156" class="count">10 of 17</text>
       <text x="40" y="228" class="label">Specific scope</text>
       <rect x="330" y="204" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="204" width="300" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="228" class="count">6 of 14</text>
+      <rect x="330" y="204" width="288" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="228" class="count">7 of 17</text>
       <text x="40" y="300" class="label">Compensation</text>
       <rect x="330" y="276" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="276" width="200" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="300" class="count">4 of 14</text>
+      <rect x="330" y="276" width="165" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="300" class="count">4 of 17</text>
       <text x="40" y="372" class="label">Asset control</text>
       <rect x="330" y="348" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="348" width="100" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="372" class="count">2 of 14</text>
+      <rect x="330" y="348" width="124" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="372" class="count">3 of 17</text>
       <text x="40" y="444" class="label">Disclosure</text>
       <rect x="330" y="420" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="420" width="150" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="444" class="count">3 of 14</text>
+      <rect x="330" y="420" width="165" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="444" class="count">4 of 17</text>
       <text x="40" y="516" class="label">Provenance</text>
       <rect x="330" y="492" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="492" width="150" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="516" class="count">3 of 14</text>
+      <rect x="330" y="492" width="124" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="516" class="count">3 of 17</text>
       <text x="40" y="588" class="label">Lifecycle</text>
       <rect x="330" y="564" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="564" width="350" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="588" class="count">7 of 14</text>
+      <rect x="330" y="564" width="288" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="588" class="count">7 of 17</text>
       <text x="40" y="660" class="label">Remedy</text>
       <rect x="330" y="636" width="700" height="32" rx="6" fill="#dddacd" />
-      <rect x="330" y="636" width="350" height="32" rx="6" fill="#20231c" />
-      <text x="1058" y="660" class="count">7 of 14</text>
+      <rect x="330" y="636" width="412" height="32" rx="6" fill="#20231c" />
+      <text x="1058" y="660" class="count">10 of 17</text>
   <text x="40" y="710" class="subtitle">Addressed means the source discusses the control. It does not mean every source imposes a binding requirement.</text>
 </svg>

@@ -14,11 +14,11 @@ size_categories:
 
 # State of AI Identity Licensing 2026 primary-source dataset
 
-This release contains 14 primary sources on digital replicas, AI likeness permission, advertising disclosure and synthetic-media provenance. Each source is coded against eight published control definitions.
+This release contains 17 primary sources on digital replicas, AI likeness permission, advertising disclosure and synthetic-media provenance. Each source is coded against eight published control definitions.
 
 Canonical report: https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026
 
-Archived release: https://doi.org/10.5281/zenodo.24089413
+Archived release: https://doi.org/10.5281/zenodo.24118395
 
 Hugging Face mirror: https://huggingface.co/datasets/TheAlvaroBalbin/state-of-ai-identity-licensing-2026
 
@@ -39,7 +39,7 @@ The dataset is selective. It is not a census of every law or contract, legal adv
 
 ## Citation
 
-SocialGravity (2026). State of AI Identity Licensing 2026 primary-source dataset (Version 1.2.0). https://doi.org/10.5281/zenodo.24089413
+SocialGravity (2026). State of AI Identity Licensing 2026 primary-source dataset (Version 1.3.0). https://doi.org/10.5281/zenodo.24118395
 
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 

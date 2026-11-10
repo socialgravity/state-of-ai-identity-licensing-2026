@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "dataset_version": "1.2.0",
+  "dataset_version": "1.3.0",
   "title": "State of AI Identity Licensing 2026 primary-source dataset",
   "publisher": "SocialGravity",
   "published": "2026-09-04",
-  "reviewed_through": "2026-10-13",
-  "metadata_updated": "2026-11-09",
-  "doi": "10.5281/zenodo.24089413",
-  "doi_url": "https://doi.org/10.5281/zenodo.24089413",
-  "zenodo_record_url": "https://zenodo.org/records/24089413",
+  "reviewed_through": "2026-11-10",
+  "metadata_updated": "2026-11-10",
+  "doi": "10.5281/zenodo.24118395",
+  "doi_url": "https://doi.org/10.5281/zenodo.24118395",
+  "zenodo_record_url": "https://zenodo.org/records/24118395",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "keywords": [
@@ -21,6 +21,13 @@
   "methodology_url": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/methodology",
   "scope": "A bounded review of primary sources that directly address digital replicas, AI likeness permission, advertising disclosure or synthetic-media provenance. It is not a census of every law or contract.",
   "corrections_url": "mailto:founders@socialgravity.ai?subject=AI%20identity%20registry%20correction",
+  "contributors": [
+    {
+      "name": "Alvaro Balbin",
+      "role": "Dataset maintainer and source reviewer",
+      "url": "https://www.alvarobalbin.com/founder/"
+    }
+  ],
   "version_history": [
     {
       "version": "1.0.0",
@@ -36,6 +43,11 @@
       "version": "1.2.0",
       "published": "2026-10-13",
       "change": "Replaced the superseded 2025 NO FAKES proposal with S.4591, recorded its committee advance and the September 30 floor objection, and rechecked the C2PA 2.4 and UK digital-replica sources."
+    },
+    {
+      "version": "1.3.0",
+      "published": "2026-11-10",
+      "change": "Added enacted New York rules for digital-replica contracts and synthetic performers in advertising, plus the 2026 EU AI Act amendment on non-consensual intimate material and consent safeguards."
     }
   ],
   "controls": [
@@ -151,6 +163,21 @@
       ]
     },
     {
+      "id": "new-york-chapter-581-digital-replica-contracts",
+      "publisher": "New York State Legislature",
+      "jurisdiction": "New York, United States",
+      "authority_type": "enacted_law",
+      "status": "Enacted as Chapter 581 of the Laws of 2024; effective January 1, 2025 for contracts entered into or modified on or after that date",
+      "published": "2024-12-13",
+      "title": "S.7676-B: Contracts for the creation and use of digital replicas",
+      "url": "https://nyassembly.gov/leg/?Actions=Y&Text=Y&bn=S07676&term=2023",
+      "finding": "Makes a covered digital-replica provision void and unenforceable when it lacks a reasonably specific intended use and the individual lacks the legal or collective-bargaining representation described by the law.",
+      "controls": [
+        "specific_scope",
+        "remedy"
+      ]
+    },
+    {
       "id": "tennessee-elvis-act",
       "publisher": "Tennessee General Assembly",
       "jurisdiction": "Tennessee, United States",
@@ -211,6 +238,22 @@
       "controls": [
         "disclosure",
         "provenance"
+      ]
+    },
+    {
+      "id": "eu-digital-omnibus-ai-2026-1744",
+      "publisher": "European Union",
+      "jurisdiction": "European Union",
+      "authority_type": "enacted_law",
+      "status": "Enacted regulation; the new prohibitions concerning non-consensual intimate material and child sexual abuse material apply from December 2, 2026",
+      "published": "2026-07-24",
+      "title": "Regulation (EU) 2026/1744, Digital Omnibus on AI",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
+      "finding": "Adds a narrow prohibition covering specified AI systems that generate or manipulate realistic non-consensual intimate material and requires appropriate safeguards to support reliable collection and demonstration of consent in the cases the regulation describes.",
+      "controls": [
+        "permission",
+        "asset_control",
+        "remedy"
       ]
     },
     {
@@ -294,6 +337,21 @@
       "controls": [
         "compensation",
         "disclosure"
+      ]
+    },
+    {
+      "id": "new-york-chapter-617-synthetic-performer-disclosure",
+      "publisher": "New York State Legislature",
+      "jurisdiction": "New York, United States",
+      "authority_type": "enacted_law",
+      "status": "Enacted as Chapter 617 of the Laws of 2025; effective 180 days after December 11, 2025",
+      "published": "2025-12-11",
+      "title": "A.8887-B: Disclosure of synthetic performers in advertising",
+      "url": "https://nyassembly.gov/leg/?Actions=Y&Memo=Y&Text=Y&bn=A08887",
+      "finding": "Requires a conspicuous disclosure when a covered commercial advertisement knowingly uses a synthetic performer, with listed exceptions and civil penalties. The defined performer is not recognizable as an identifiable natural performer, so the law does not itself establish likeness permission.",
+      "controls": [
+        "disclosure",
+        "remedy"
       ]
     },
     {
