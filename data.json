@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "dataset_version": "1.2.0",
+  "title": "State of AI Identity Licensing 2026 primary-source dataset",
+  "publisher": "SocialGravity",
+  "published": "2026-09-04",
+  "reviewed_through": "2026-10-13",
+  "metadata_updated": "2026-11-09",
+  "doi": "10.5281/zenodo.24089413",
+  "doi_url": "https://doi.org/10.5281/zenodo.24089413",
+  "zenodo_record_url": "https://zenodo.org/records/24089413",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": [
+    "AI identity licensing",
+    "digital replicas",
+    "AI likeness consent",
+    "synthetic media provenance",
+    "content authenticity"
+  ],
+  "methodology_url": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/methodology",
+  "scope": "A bounded review of primary sources that directly address digital replicas, AI likeness permission, advertising disclosure or synthetic-media provenance. It is not a census of every law or contract.",
+  "corrections_url": "mailto:founders@socialgravity.ai?subject=AI%20identity%20registry%20correction",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "published": "2026-09-04",
+      "change": "Initial release with 12 primary sources, eight operating controls, methodology, JSON and CSV distributions."
+    },
+    {
+      "version": "1.1.0",
+      "published": "2026-09-05",
+      "change": "Added the enacted TAKE IT DOWN Act and SAG-AFTRA interactive digital-replica guidance, and updated C2PA from specification 2.2 to 2.4."
+    },
+    {
+      "version": "1.2.0",
+      "published": "2026-10-13",
+      "change": "Replaced the superseded 2025 NO FAKES proposal with S.4591, recorded its committee advance and the September 30 floor objection, and rechecked the C2PA 2.4 and UK digital-replica sources."
+    }
+  ],
+  "controls": [
+    {
+      "id": "permission",
+      "label": "Permission",
+      "definition": "The source addresses authorization, consent, licensing or a right to control use of a person’s voice or visual likeness."
+    },
+    {
+      "id": "specific_scope",
+      "label": "Specific scope",
+      "definition": "The source addresses intended-use specificity, contract form, project limits or a requirement for additional approval."
+    },
+    {
+      "id": "compensation",
+      "label": "Compensation",
+      "definition": "The source addresses payment, wages, residuals, benefit contributions or disclosure of a paid relationship."
+    },
+    {
+      "id": "asset_control",
+      "label": "Asset control",
+      "definition": "The source addresses access, security, storage, transfer or destruction of a replica or source asset."
+    },
+    {
+      "id": "disclosure",
+      "label": "Disclosure",
+      "definition": "The source addresses telling an audience that content is synthetic, manipulated, sponsored or otherwise materially connected."
+    },
+    {
+      "id": "provenance",
+      "label": "Provenance",
+      "definition": "The source addresses machine-readable origin, history, marking, binding, watermarking, detection or signed content assertions."
+    },
+    {
+      "id": "lifecycle",
+      "label": "Lifecycle",
+      "definition": "The source addresses duration, expiry, termination, additional use, credential revocation or treatment after a permission period."
+    },
+    {
+      "id": "remedy",
+      "label": "Remedy",
+      "definition": "The source addresses unenforceability, liability, removal, a cause of action or a policy proposal intended to close a legal gap."
+    }
+  ],
+  "authority_types": [
+    {
+      "id": "enacted_law",
+      "label": "Enacted law or regulation"
+    },
+    {
+      "id": "proposed_legislation",
+      "label": "Proposed legislation"
+    },
+    {
+      "id": "government_report_or_guidance",
+      "label": "Government report or guidance"
+    },
+    {
+      "id": "collective_agreement",
+      "label": "Collective agreement"
+    },
+    {
+      "id": "technical_standard",
+      "label": "Technical standard"
+    }
+  ],
+  "sources": [
+    {
+      "id": "usco-digital-replicas-2024",
+      "publisher": "U.S. Copyright Office",
+      "jurisdiction": "United States, federal",
+      "authority_type": "government_report_or_guidance",
+      "status": "Policy report and recommendations, not enacted law",
+      "published": "2024-07-31",
+      "title": "Copyright and Artificial Intelligence, Part 1: Digital Replicas",
+      "url": "https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-1-Digital-Replicas-Report.pdf",
+      "finding": "Recommends a federal digital-replica right and says licences should use informed consent, full disclosure of intended uses and limited terms.",
+      "controls": [
+        "permission",
+        "specific_scope",
+        "lifecycle",
+        "remedy"
+      ]
+    },
+    {
+      "id": "california-ab-2602",
+      "publisher": "California Legislature",
+      "jurisdiction": "California, United States",
+      "authority_type": "enacted_law",
+      "status": "Enacted, applicable to specified new performances fixed on or after January 1, 2025",
+      "published": "2024-09-17",
+      "title": "AB 2602: Contracts against public policy, digital replicas",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB2602",
+      "finding": "Makes a covered contract provision unenforceable for specified new digital-replica performances when intended use is not reasonably specific and the individual lacks the representation described by the statute.",
+      "controls": [
+        "specific_scope",
+        "remedy"
+      ]
+    },
+    {
+      "id": "california-ab-1836",
+      "publisher": "California Legislature",
+      "jurisdiction": "California, United States",
+      "authority_type": "enacted_law",
+      "status": "Enacted",
+      "published": "2024-09-17",
+      "title": "AB 1836: Use of likeness, digital replica",
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB1836",
+      "finding": "Adds liability for producing, distributing or making available certain unauthorized digital replicas of deceased personalities in expressive works, subject to listed exceptions.",
+      "controls": [
+        "permission",
+        "remedy"
+      ]
+    },
+    {
+      "id": "tennessee-elvis-act",
+      "publisher": "Tennessee General Assembly",
+      "jurisdiction": "Tennessee, United States",
+      "authority_type": "enacted_law",
+      "status": "Enacted, effective July 1, 2024",
+      "published": "2024-03-21",
+      "title": "ELVIS Act, Public Chapter 588",
+      "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2096&GA=113",
+      "finding": "Adds voice, including a readily identifiable simulation, to Tennessee’s protected personal rights and extends liability to specified unauthorized uses and distribution.",
+      "controls": [
+        "permission",
+        "remedy"
+      ]
+    },
+    {
+      "id": "no-fakes-act-2026-s4591",
+      "publisher": "United States Congress",
+      "jurisdiction": "United States, federal",
+      "authority_type": "proposed_legislation",
+      "status": "Advanced by the Senate Judiciary Committee by voice vote on June 18, 2026; a September 30 unanimous-consent request was blocked; not enacted as of October 13, 2026",
+      "published": "2026-06-10",
+      "title": "S.4591: NO FAKES Act of 2026",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4591",
+      "finding": "Would create a federal right in an individual’s voice and visual likeness, with a notice-and-counter-notice framework and enumerated speech protections. It remains proposed legislation.",
+      "controls": [
+        "permission",
+        "specific_scope",
+        "lifecycle",
+        "remedy"
+      ]
+    },
+    {
+      "id": "take-it-down-act-2025",
+      "publisher": "United States Congress",
+      "jurisdiction": "United States, federal",
+      "authority_type": "enacted_law",
+      "status": "Enacted as Public Law 119-12; the covered-platform notice-and-removal requirement took effect May 19, 2026",
+      "published": "2025-05-19",
+      "title": "TAKE IT DOWN Act, Public Law 119-12",
+      "url": "https://www.congress.gov/119/plaws/publ12/PLAW-119publ12.pdf",
+      "finding": "Creates a narrow federal rule for nonconsensual intimate depictions, including defined digital forgeries, and requires covered platforms to operate a notice-and-removal process. It is not a general commercial likeness-licensing statute.",
+      "controls": [
+        "permission",
+        "lifecycle",
+        "remedy"
+      ]
+    },
+    {
+      "id": "eu-ai-act-article-50",
+      "publisher": "European Union",
+      "jurisdiction": "European Union",
+      "authority_type": "enacted_law",
+      "status": "Enacted regulation",
+      "published": "2024-07-12",
+      "title": "Regulation (EU) 2024/1689, Article 50",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en",
+      "finding": "Requires certain providers to mark synthetic outputs in a machine-readable and detectable format and certain deployers to disclose deepfake image, audio or video, subject to the regulation’s exceptions.",
+      "controls": [
+        "disclosure",
+        "provenance"
+      ]
+    },
+    {
+      "id": "uk-copyright-ai-report-2026",
+      "publisher": "UK Government",
+      "jurisdiction": "United Kingdom",
+      "authority_type": "government_report_or_guidance",
+      "status": "Government report with a separate digital-replicas consultation announced",
+      "published": "2026-03-18",
+      "title": "Report on Copyright and Artificial Intelligence",
+      "url": "https://www.gov.uk/government/publications/report-and-impact-assessment-on-copyright-and-artificial-intelligence/report-on-copyright-and-artificial-intelligence",
+      "finding": "Says replicas can imitate a person’s voice or likeness without permission, identifies gaps in existing protection and announces further consultation rather than a completed licensing rule.",
+      "controls": [
+        "permission",
+        "remedy"
+      ]
+    },
+    {
+      "id": "sag-aftra-commercials-2025",
+      "publisher": "SAG-AFTRA",
+      "jurisdiction": "Covered United States commercials work",
+      "authority_type": "collective_agreement",
+      "status": "Collective agreement guidance",
+      "published": "2025-07-01",
+      "title": "Artificial Intelligence under the 2025 Commercials Contract",
+      "url": "https://www.sagaftra.org/sites/default/files/2025-07/Contract%20Bulletin%20-%20A.I.%20and%20Commercials.pdf",
+      "finding": "Describes consent for creation and use, a separate clear writing, reasonably specific intended use, added consent beyond scope, compensation, access security and storage limits.",
+      "controls": [
+        "permission",
+        "specific_scope",
+        "compensation",
+        "asset_control",
+        "lifecycle"
+      ]
+    },
+    {
+      "id": "sag-aftra-tv-theatrical-2026",
+      "publisher": "SAG-AFTRA",
+      "jurisdiction": "Covered United States television and theatrical work",
+      "authority_type": "collective_agreement",
+      "status": "Collective agreement with some phased provisions",
+      "published": "2026-05-27",
+      "title": "2026 Theatrical and Television Memorandum of Agreement",
+      "url": "https://www.sagaftra.org/sites/default/files/2026-05/2026%20Theatrical-Television%20MOA.pdf",
+      "finding": "Addresses consent, payment, legitimate-business-need access, security, transfer obligations and use-specific treatment for digital replicas, with some terms phased to later dates.",
+      "controls": [
+        "permission",
+        "specific_scope",
+        "compensation",
+        "asset_control",
+        "lifecycle"
+      ]
+    },
+    {
+      "id": "sag-aftra-interactive-2026",
+      "publisher": "SAG-AFTRA",
+      "jurisdiction": "Covered United States interactive-media work",
+      "authority_type": "collective_agreement",
+      "status": "Collective agreement guidance",
+      "published": "2026-02-01",
+      "title": "Interactive Digital Replicas and Consent",
+      "url": "https://www.sagaftra.org/sites/default/files/2026-02/Contract%20Bulletin%20-%20Interactive%20Digital%20Replicas%20and%20Consent.pdf",
+      "finding": "Describes separate written consent, a reasonably specific intended use, per-game compensation and rules allowing performers to suspend consent for generating new material during a strike.",
+      "controls": [
+        "permission",
+        "specific_scope",
+        "compensation",
+        "lifecycle"
+      ]
+    },
+    {
+      "id": "ftc-endorsement-guides",
+      "publisher": "Federal Trade Commission",
+      "jurisdiction": "United States, federal",
+      "authority_type": "government_report_or_guidance",
+      "status": "Federal advertising guidance",
+      "published": "2023-06-29",
+      "title": "FTC Endorsement Guides: What People Are Asking",
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+      "finding": "Says endorsements must be honest and not misleading and that unexpected material connections affecting evaluation should be disclosed clearly and conspicuously. It does not grant likeness permission.",
+      "controls": [
+        "compensation",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "nist-ai-100-4",
+      "publisher": "National Institute of Standards and Technology",
+      "jurisdiction": "United States, technical guidance",
+      "authority_type": "government_report_or_guidance",
+      "status": "Technical report",
+      "published": "2024-11-20",
+      "title": "NIST AI 100-4: Reducing Risks Posed by Synthetic Content",
+      "url": "https://www.nist.gov/publications/reducing-risks-posed-synthetic-content-overview-technical-approaches-digital-content",
+      "finding": "Reviews provenance, watermarking, labeling, detection, testing and auditing approaches for synthetic content. Those techniques do not establish a person’s permission by themselves.",
+      "controls": [
+        "disclosure",
+        "provenance"
+      ]
+    },
+    {
+      "id": "c2pa-2-4",
+      "publisher": "Coalition for Content Provenance and Authenticity",
+      "jurisdiction": "International technical standard",
+      "authority_type": "technical_standard",
+      "status": "Technical specification version 2.4",
+      "published": "2026-04-01",
+      "title": "C2PA Content Credentials specification 2.4",
+      "url": "https://spec.c2pa.org/specifications/specifications/2.4/specs/ContentCredentials.html",
+      "finding": "Defines signed, cryptographically bound assertions about an asset’s provenance and adds repository receipts plus current soft-binding and live-video mechanisms. Validation does not decide whether a depicted person consented.",
+      "controls": [
+        "provenance",
+        "lifecycle"
+      ]
+    }
+  ]
+}

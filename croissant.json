@@ -1,0 +1,379 @@
+{
+  "@context": {
+    "@base": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/",
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "@id": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026#dataset",
+  "name": "State of AI Identity Licensing 2026 primary-source dataset",
+  "description": "A bounded review of primary sources that directly address digital replicas, AI likeness permission, advertising disclosure or synthetic-media provenance. It is not a census of every law or contract.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "SocialGravity (2026). State of AI Identity Licensing 2026 primary-source dataset (Version 1.2.0). https://doi.org/10.5281/zenodo.24089413",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026",
+  "identifier": [
+    "https://doi.org/10.5281/zenodo.24089413",
+    "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026"
+  ],
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.24089413",
+    "https://zenodo.org/records/24089413",
+    "https://huggingface.co/datasets/TheAlvaroBalbin/state-of-ai-identity-licensing-2026"
+  ],
+  "creator": {
+    "@type": "sc:Organization",
+    "name": "SocialGravity",
+    "url": "https://socialgravity.ai/"
+  },
+  "publisher": {
+    "@type": "sc:Organization",
+    "name": "SocialGravity",
+    "url": "https://socialgravity.ai/"
+  },
+  "datePublished": "2026-09-04",
+  "dateModified": "2026-11-09",
+  "version": "1.2.0",
+  "inLanguage": "en",
+  "keywords": [
+    "AI identity licensing",
+    "digital replicas",
+    "AI likeness consent",
+    "synthetic media provenance",
+    "content authenticity"
+  ],
+  "isLiveDataset": false,
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "data.csv",
+      "name": "data.csv",
+      "description": "One row per reviewed primary source, including the eight coded control columns.",
+      "contentUrl": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.csv",
+      "contentSize": "7712 B",
+      "encodingFormat": "text/csv",
+      "sha256": "92193caaf655f257932e744c3112af2689b874fc453b02efd628e9bab65b9c99"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "data.json",
+      "name": "data.json",
+      "description": "The complete versioned dataset, coding definitions, source records and release metadata.",
+      "contentUrl": "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026/data.json",
+      "contentSize": "14915 B",
+      "encodingFormat": "application/json",
+      "sha256": "7995ca3ebbc5d7df8c11bdff31e7b1ecc04d6b939705102b31e6fe4b21760be1"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "sources",
+      "name": "Reviewed primary sources",
+      "description": "Fourteen source records coded against eight published operating-control definitions.",
+      "key": {
+        "@id": "sources/id"
+      },
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "sources/id",
+          "name": "id",
+          "description": "Stable identifier for the reviewed source.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "id"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/publisher",
+          "name": "publisher",
+          "description": "The institution that published the source.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "publisher"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/jurisdiction",
+          "name": "jurisdiction",
+          "description": "The jurisdiction or geographic scope named by the source.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "jurisdiction"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/authority_type",
+          "name": "authority_type",
+          "description": "The source class used to keep laws, proposals, agreements, guidance and standards separate.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "authority_type"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/status",
+          "name": "status",
+          "description": "The source status and its stated limit at the review cutoff.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "status"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/published",
+          "name": "published",
+          "description": "The source publication date.",
+          "dataType": "sc:Date",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "published"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/title",
+          "name": "title",
+          "description": "The source title.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "title"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/url",
+          "name": "url",
+          "description": "The primary publisher URL.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "url"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/finding",
+          "name": "finding",
+          "description": "A short statement of what the source directly addresses.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "finding"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/permission",
+          "name": "permission",
+          "description": "The source addresses authorization, consent, licensing or a right to control use of a person’s voice or visual likeness.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "permission"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/specific_scope",
+          "name": "specific_scope",
+          "description": "The source addresses intended-use specificity, contract form, project limits or a requirement for additional approval.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "specific_scope"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/compensation",
+          "name": "compensation",
+          "description": "The source addresses payment, wages, residuals, benefit contributions or disclosure of a paid relationship.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "compensation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/asset_control",
+          "name": "asset_control",
+          "description": "The source addresses access, security, storage, transfer or destruction of a replica or source asset.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "asset_control"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/disclosure",
+          "name": "disclosure",
+          "description": "The source addresses telling an audience that content is synthetic, manipulated, sponsored or otherwise materially connected.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "disclosure"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/provenance",
+          "name": "provenance",
+          "description": "The source addresses machine-readable origin, history, marking, binding, watermarking, detection or signed content assertions.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "provenance"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/lifecycle",
+          "name": "lifecycle",
+          "description": "The source addresses duration, expiry, termination, additional use, credential revocation or treatment after a permission period.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "lifecycle"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sources/remedy",
+          "name": "remedy",
+          "description": "The source addresses unenforceability, liability, removal, a cause of action or a policy proposal intended to close a legal gap.",
+          "dataType": "sc:Boolean",
+          "source": {
+            "fileObject": {
+              "@id": "data.csv"
+            },
+            "extract": {
+              "column": "remedy"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

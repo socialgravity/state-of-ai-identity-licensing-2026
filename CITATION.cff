@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using this metadata."
+title: "State of AI Identity Licensing 2026 primary-source dataset"
+type: dataset
+authors:
+  - name: "SocialGravity"
+doi: "10.5281/zenodo.24089413"
+version: "1.2.0"
+date-released: "2026-10-13"
+url: "https://socialgravity.ai/resources/state-of-ai-identity-licensing-2026"
+repository-artifact: "https://zenodo.org/records/24089413"
+repository-code: "https://github.com/socialgravity"
+license: CC-BY-4.0
+keywords:
+  - "AI identity licensing"
+  - "digital replicas"
+  - "AI likeness consent"
+  - "synthetic media provenance"
+  - "content authenticity"
+abstract: "A bounded review of primary sources that directly address digital replicas, AI likeness permission, advertising disclosure or synthetic-media provenance. It is not a census of every law or contract."

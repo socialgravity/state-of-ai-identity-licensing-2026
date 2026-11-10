@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "dataset_version": "1.2.0",
+  "reviewed_through": "2026-10-13",
+  "metadata_updated": "2026-11-09",
+  "doi": "10.5281/zenodo.24089413",
+  "doi_url": "https://doi.org/10.5281/zenodo.24089413",
+  "zenodo_record_url": "https://zenodo.org/records/24089413",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "published": "2026-09-04",
+      "change": "Initial release with 12 primary sources, eight operating controls, methodology, JSON and CSV distributions."
+    },
+    {
+      "version": "1.1.0",
+      "published": "2026-09-05",
+      "change": "Added the enacted TAKE IT DOWN Act and SAG-AFTRA interactive digital-replica guidance, and updated C2PA from specification 2.2 to 2.4."
+    },
+    {
+      "version": "1.2.0",
+      "published": "2026-10-13",
+      "change": "Replaced the superseded 2025 NO FAKES proposal with S.4591, recorded its committee advance and the September 30 floor objection, and rechecked the C2PA 2.4 and UK digital-replica sources."
+    }
+  ],
+  "corrections_url": "mailto:founders@socialgravity.ai?subject=AI%20identity%20registry%20correction"
+}
